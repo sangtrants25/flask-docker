@@ -7,4 +7,4 @@ done
 
 # flask run -h 0.0.0.0
 
-gunicorn -c ./gunicorn.config.py manage
+gunicorn -c ./gunicorn.config.py manage:app

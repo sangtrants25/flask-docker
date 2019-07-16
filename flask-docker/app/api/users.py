@@ -1,6 +1,6 @@
 from flask import request
 from app import db
-from app.api.models import User as user_model
+from app.models import User as user_model
 from sqlalchemy import exc
 from flask_restful import Resource
 from . import api

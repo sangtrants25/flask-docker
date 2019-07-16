@@ -8,4 +8,4 @@ class Hello(Resource):
             "message": "helloword"
         }
 
-api.add_resource(Hello, '/')
+api.add_resource(Hello, '/hello')

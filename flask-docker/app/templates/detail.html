@@ -1,0 +1,8 @@
+{% extends 'admin/model/details.html' %}
+
+{% block body %}
+    {{ super() }}
+    {{image_src}}
+    <img src="{{ url_for('static', filename='images/upload/songoku.png')}}" />
+    <img src="{{ url_for('static', filename=image_src)}}" />
+{% endblock %}
